@@ -1,0 +1,1 @@
+New-Mod-Template is used by the "Mods-For-Lupin" organization on GitHub to create new mods.
