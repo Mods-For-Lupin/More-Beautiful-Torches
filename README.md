@@ -1,1 +1,1 @@
-New-Mod-Template is used by the "Mods-For-Lupin" organization on GitHub to create new mods.
+![More Beautiful Torches Banner](https://www.bisecthosting.com/images/CF/More_Beautiful_Torches/BH_More_Beautiful_Torches_Header.webp)
