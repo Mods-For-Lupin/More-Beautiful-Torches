@@ -16,10 +16,10 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.cursee.examplemod.ExampleModFabric"
+            "com.cursee.more_beautiful_torches.MoreBeautifulTorchesModFabric"
         ],
         "client": [
-            "com.cursee.examplemod.ExampleModClientFabric"
+            "com.cursee.more_beautiful_torches.MoreBeautifulTorchesClientFabric"
         ]
     },
     "mixins": [
