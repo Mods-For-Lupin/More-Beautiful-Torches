@@ -1,0 +1,1 @@
+{ "variants": { "lit=false": { "model": "more_beautiful_torches:block/sculk_catalyst_redstone_torch_off" }, "lit=true": { "model": "more_beautiful_torches:block/sculk_catalyst_redstone_torch" } } }

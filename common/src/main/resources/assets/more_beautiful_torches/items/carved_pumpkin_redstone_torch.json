@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "more_beautiful_torches:item/carved_pumpkin_redstone_torch"
+  }
+}

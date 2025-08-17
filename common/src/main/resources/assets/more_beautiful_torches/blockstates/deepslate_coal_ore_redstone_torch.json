@@ -1,0 +1,1 @@
+{ "variants": { "lit=false": { "model": "more_beautiful_torches:block/deepslate_coal_ore_redstone_torch_off" }, "lit=true": { "model": "more_beautiful_torches:block/deepslate_coal_ore_redstone_torch" } } }

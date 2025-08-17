@@ -1,0 +1,1 @@
+{ "variants": { "lit=false": { "model": "more_beautiful_torches:block/nether_bricks_redstone_torch_off" }, "lit=true": { "model": "more_beautiful_torches:block/nether_bricks_redstone_torch" } } }

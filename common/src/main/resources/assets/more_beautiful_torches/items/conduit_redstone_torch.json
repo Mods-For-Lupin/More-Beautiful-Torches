@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "more_beautiful_torches:item/conduit_redstone_torch"
+  }
+}

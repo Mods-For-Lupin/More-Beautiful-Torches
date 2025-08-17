@@ -1,0 +1,1 @@
+{ "parent": "minecraft:block/template_torch", "render_type": "minecraft:cutout", "textures": { "torch": "more_beautiful_torches:block/rooted_dirt_soul_torch" } }

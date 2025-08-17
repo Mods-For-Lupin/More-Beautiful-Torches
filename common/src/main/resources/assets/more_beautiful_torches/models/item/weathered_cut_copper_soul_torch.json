@@ -1,0 +1,1 @@
+{ "parent": "minecraft:item/generated", "textures": { "layer0": "more_beautiful_torches:block/weathered_cut_copper_soul_torch" } }

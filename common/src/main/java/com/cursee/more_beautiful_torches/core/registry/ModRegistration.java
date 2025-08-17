@@ -4,6 +4,7 @@ public class ModRegistration {
 
     public static void declareAll() {
 
+        ModBlocks.declare();
         ModItems.declare();
     }
 }

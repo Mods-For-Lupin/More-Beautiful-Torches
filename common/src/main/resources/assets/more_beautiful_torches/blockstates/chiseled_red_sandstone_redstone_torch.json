@@ -1,0 +1,1 @@
+{ "variants": { "lit=false": { "model": "more_beautiful_torches:block/chiseled_red_sandstone_redstone_torch_off" }, "lit=true": { "model": "more_beautiful_torches:block/chiseled_red_sandstone_redstone_torch" } } }

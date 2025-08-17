@@ -1,0 +1,1 @@
+{ "parent": "minecraft:item/generated", "textures": { "layer0": "more_beautiful_torches:block/amethyst_cluster_soul_torch" } }

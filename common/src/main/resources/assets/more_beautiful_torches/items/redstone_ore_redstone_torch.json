@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "more_beautiful_torches:item/redstone_ore_redstone_torch"
+  }
+}

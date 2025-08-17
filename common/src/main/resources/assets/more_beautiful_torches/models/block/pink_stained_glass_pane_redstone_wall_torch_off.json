@@ -1,0 +1,1 @@
+{ "parent": "minecraft:block/template_torch_wall", "render_type": "minecraft:cutout", "textures": { "torch": "more_beautiful_torches:block/pink_stained_glass_pane_redstone_torch_off" } }

@@ -1,0 +1,1 @@
+{ "variants": { "lit=false": { "model": "more_beautiful_torches:block/purple_terracotta_redstone_torch_off" }, "lit=true": { "model": "more_beautiful_torches:block/purple_terracotta_redstone_torch" } } }

@@ -1,0 +1,1 @@
+{ "variants": { "lit=false": { "model": "more_beautiful_torches:block/stripped_jungle_log_redstone_torch_off" }, "lit=true": { "model": "more_beautiful_torches:block/stripped_jungle_log_redstone_torch" } } }
