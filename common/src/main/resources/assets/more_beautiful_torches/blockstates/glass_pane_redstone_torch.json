@@ -1,1 +1,0 @@
-{ "variants": { "lit=false": { "model": "more_beautiful_torches:block/glass_pane_redstone_torch_off" }, "lit=true": { "model": "more_beautiful_torches:block/glass_pane_redstone_torch" } } }

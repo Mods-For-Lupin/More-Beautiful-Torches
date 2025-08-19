@@ -1,1 +1,0 @@
-{ "parent": "minecraft:block/template_torch", "render_type": "minecraft:cutout", "textures": { "torch": "more_beautiful_torches:block/red_glazed_terracotta_redstone_torch_off" } }

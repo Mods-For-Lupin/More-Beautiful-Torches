@@ -6,5 +6,6 @@ public class ModRegistration {
 
         ModBlocks.declare();
         ModItems.declare();
+        ModTabs.declare();
     }
 }

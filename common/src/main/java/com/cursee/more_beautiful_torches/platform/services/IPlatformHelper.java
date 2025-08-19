@@ -1,5 +1,9 @@
 package com.cursee.more_beautiful_torches.platform.services;
 
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.level.block.Block;
+
 public interface IPlatformHelper {
 
     /**
@@ -40,4 +44,8 @@ public interface IPlatformHelper {
      * @return The absolute path to the current game directory.
      */
     String getGameDirectory();
+
+    CreativeModeTab.Builder tabBuilder();
+
+    ResourceLocation getKey(String modID, Block block);
 }
