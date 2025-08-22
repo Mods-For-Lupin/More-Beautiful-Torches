@@ -43,7 +43,8 @@ neoForge {
 }
 
 dependencies {
-    implementation "curse.maven:monolib-968432:6865016"
+//    implementation "curse.maven:monolib-968432:6865016"
+    implementation fileTree(dir: 'libs', include: '*.jar')
 }
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }

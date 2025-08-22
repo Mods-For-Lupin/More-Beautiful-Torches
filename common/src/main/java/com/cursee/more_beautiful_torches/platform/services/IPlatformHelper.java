@@ -46,6 +46,4 @@ public interface IPlatformHelper {
     String getGameDirectory();
 
     CreativeModeTab.Builder tabBuilder();
-
-    ResourceLocation getKey(String modID, Block block);
 }

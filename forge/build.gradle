@@ -81,7 +81,9 @@ dependencies {
     // Forge's hack fix
     implementation('net.sf.jopt-simple:jopt-simple:5.0.4') { version { strictly '5.0.4' } }
 
-    implementation "curse.maven:monolib-968432:6865015"
+//    implementation "curse.maven:monolib-968432:6865015"
+    // implementation "maven.modrinth:monolib:forge-1.21.8-3.0.2"
+    implementation fileTree(dir: 'libs', include: '*.jar')
 }
 
 sourceSets.each {

@@ -38,9 +38,4 @@ public class FabricPlatformHelper implements IPlatformHelper {
     public CreativeModeTab.Builder tabBuilder() {
         return FabricItemGroup.builder();
     }
-
-    @Override
-    public ResourceLocation getKey(String modID, Block block) {
-        return BuiltInRegistries.BLOCK.getKey(block);
-    }
 }

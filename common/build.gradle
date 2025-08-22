@@ -32,7 +32,8 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-params:5.10.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
 
-    compileOnly files('libs/monolib-common-1.21.8-3.0.1.jar')
+//    compileOnly files('libs/monolib-common-1.21.8-3.0.1.jar')
+    compileOnly fileTree(dir: 'libs', include: '*.jar')
 }
 
 test {

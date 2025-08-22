@@ -22,7 +22,11 @@ build
 eclipse
 run
 runs
+
 common/libs
+fabric/libs
+forge/libs
+neoforge/libs
 
 archive
 !arhive/scripts

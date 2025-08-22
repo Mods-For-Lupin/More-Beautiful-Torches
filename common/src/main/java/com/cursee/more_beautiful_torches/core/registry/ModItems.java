@@ -1,6 +1,7 @@
 package com.cursee.more_beautiful_torches.core.registry;
 
-import com.cursee.monolib.core.registry.DeferredRegistryObject;
+import com.cursee.matyrobbrt.registrationutils.RegistrationProvider;
+import com.cursee.matyrobbrt.registrationutils.RegistryObject;
 import com.cursee.monolib.platform.Services;
 import com.cursee.more_beautiful_torches.Constants;
 import com.cursee.more_beautiful_torches.MoreBeautifulTorches;
@@ -15,33 +16,47 @@ import net.minecraft.world.level.block.Block;
 
 import java.util.Iterator;
 import java.util.LinkedHashMap;
+import java.util.LinkedList;
 import java.util.Map;
+import java.util.function.BiConsumer;
 import java.util.function.Supplier;
 
 public class ModItems {
 
-    public static final Map<String, DeferredRegistryObject<Item>> REGISTERED = new LinkedHashMap<>();
+    public static final LinkedList<RegistryObject<Item, Item>> REGISTERED = new LinkedList<>();
 
-    public static void declare() {
+    public static final RegistrationProvider<Item> ITEMS = RegistrationProvider.get(Registries.ITEM, Constants.MOD_ID);
 
-        Iterator<Map.Entry<String, DeferredRegistryObject<Block>>> it = ModBlocks.REGISTERED.entrySet().iterator();
-
-        while (it.hasNext()) {
-            Map.Entry<String, DeferredRegistryObject<Block>> torch = it.next();
-            Map.Entry<String, DeferredRegistryObject<Block>> wallTorch = it.next();
-
-            // String s = BuiltInRegistries.BLOCK.getKey(torch.getValue().get()).getPath();
-
-
-            String s = torch.getKey();
-
-            var key = ResourceKey.create(Registries.ITEM, MoreBeautifulTorches.identifier(s));
-            DeferredRegistryObject<Item> torchItem = register(s, () -> new StandingAndWallBlockItem(torch.getValue().get(), wallTorch.getValue().get(), Direction.DOWN, new Item.Properties().setId(key)));
-            REGISTERED.put(s, torchItem);
-        }
+    public static RegistryObject<Item, Item> register(String name, Supplier<Item> supplier) {
+        var block = ITEMS.register(name, supplier);
+        REGISTERED.add(block);
+        return block;
     }
 
-    public static DeferredRegistryObject<Item> register(String name, Supplier<Item> supplier) {
-        return Services.PLATFORM.register(BuiltInRegistries.ITEM, Constants.MOD_ID, name, supplier);
+//    public static void register(BiConsumer<Item, ResourceLocation> consumer) {
+//        var it = ModBlocks.REGISTERED.entrySet().iterator();
+//
+//        while (it.hasNext()) {
+//
+//            var b1 = it.next();
+//            var b2 = it.next();
+//
+//            consumer.accept(new StandingAndWallBlockItem(b1.getValue(), b2.getValue(), Direction.DOWN, new Item.Properties().setId(ResourceKey.create(Registries.ITEM, b1.getKey()))), b1.getKey());
+//        }
+//    }
+
+    public static void declare() {
+        // var it = ModBlocks.BLOCKS.getEntries().iterator();
+        var it = ModBlocks.REGISTERED.iterator();
+
+        while (it.hasNext()) {
+
+            var b1 = it.next();
+            var b2 = it.next();
+
+            // System.out.println(b1.getId().toString());
+
+            register(b1.getId().getPath(), () -> new StandingAndWallBlockItem(b1.get(), b2.get(), Direction.DOWN, new Item.Properties().setId(ResourceKey.create(Registries.ITEM, b1.getId()))));
+        }
     }
 }
