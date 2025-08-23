@@ -43,6 +43,9 @@ neoForge {
 }
 
 dependencies {
+
+    implementation "curse.maven:jei-238222:6832478"
+
 //    implementation "curse.maven:monolib-968432:6865016"
     implementation fileTree(dir: 'libs', include: '*.jar')
 }

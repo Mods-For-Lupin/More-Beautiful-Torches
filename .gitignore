@@ -28,5 +28,7 @@ fabric/libs
 forge/libs
 neoforge/libs
 
+generated
+
 archive
 !arhive/scripts

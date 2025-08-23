@@ -1,0 +1,1 @@
+{ "type": "minecraft:crafting_shaped", "category": "misc", "key": {"X": "minecraft:bamboo_planks", "#": ["minecraft:redstone"]}, "pattern": ["###", "#X#", "###"], "result": {"count": 32, "id": "more_beautiful_torches:bamboo_planks_redstone_torch"}, "show_notification": true }

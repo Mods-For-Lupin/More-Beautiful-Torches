@@ -1,0 +1,1 @@
+{ "type": "minecraft:crafting_shaped", "category": "misc", "key": {"X": "minecraft:dried_kelp_block", "#": ["minecraft:redstone"]}, "pattern": ["###", "#X#", "###"], "result": {"count": 32, "id": "more_beautiful_torches:dried_kelp_block_redstone_torch"}, "show_notification": true }

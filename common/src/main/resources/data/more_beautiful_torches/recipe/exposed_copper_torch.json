@@ -1,0 +1,1 @@
+{ "type": "minecraft:crafting_shaped", "category": "misc", "key": {"X": "minecraft:exposed_copper", "#": ["minecraft:coal", "minecraft:charcoal"]}, "pattern": ["###", "#X#", "###"], "result": {"count": 32, "id": "more_beautiful_torches:exposed_copper_torch"}, "show_notification": true }

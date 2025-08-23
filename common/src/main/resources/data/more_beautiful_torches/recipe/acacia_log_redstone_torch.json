@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "X": "minecraft:acacia_log",
+    "#": "minecraft:redstone"
+  },
+  "pattern": ["###", "#X#", "###"],
+  "result": {
+    "count": 32,
+    "id": "more_beautiful_torches:acacia_log_redstone_torch"
+  },
+  "show_notification": true }

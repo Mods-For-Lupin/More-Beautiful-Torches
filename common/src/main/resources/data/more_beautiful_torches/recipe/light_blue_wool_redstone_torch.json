@@ -1,0 +1,1 @@
+{ "type": "minecraft:crafting_shaped", "category": "misc", "key": {"X": "minecraft:light_blue_wool", "#": ["minecraft:redstone"]}, "pattern": ["###", "#X#", "###"], "result": {"count": 32, "id": "more_beautiful_torches:light_blue_wool_redstone_torch"}, "show_notification": true }

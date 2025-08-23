@@ -1,0 +1,1 @@
+{ "type": "minecraft:crafting_shaped", "category": "misc", "key": {"X": "minecraft:amethyst_cluster", "#": ["minecraft:redstone"]}, "pattern": ["###", "#X#", "###"], "result": {"count": 32, "id": "more_beautiful_torches:amethyst_cluster_redstone_torch"}, "show_notification": true }

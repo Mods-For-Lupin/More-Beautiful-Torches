@@ -1,0 +1,1 @@
+{ "type": "minecraft:crafting_shaped", "category": "misc", "key": {"X": "minecraft:yellow_terracotta", "#": ["minecraft:soul_soil", "minecraft:soul_sand"]}, "pattern": ["###", "#X#", "###"], "result": {"count": 32, "id": "more_beautiful_torches:yellow_terracotta_soul_torch"}, "show_notification": true }

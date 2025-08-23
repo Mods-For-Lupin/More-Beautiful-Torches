@@ -1,0 +1,1 @@
+{ "type": "minecraft:crafting_shaped", "category": "misc", "key": {"X": "minecraft:smooth_quartz", "#": ["minecraft:redstone"]}, "pattern": ["###", "#X#", "###"], "result": {"count": 32, "id": "more_beautiful_torches:smooth_quartz_redstone_torch"}, "show_notification": true }

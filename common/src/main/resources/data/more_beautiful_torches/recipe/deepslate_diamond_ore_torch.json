@@ -1,0 +1,1 @@
+{ "type": "minecraft:crafting_shaped", "category": "misc", "key": {"X": "minecraft:deepslate_diamond_ore", "#": ["minecraft:coal", "minecraft:charcoal"]}, "pattern": ["###", "#X#", "###"], "result": {"count": 32, "id": "more_beautiful_torches:deepslate_diamond_ore_torch"}, "show_notification": true }

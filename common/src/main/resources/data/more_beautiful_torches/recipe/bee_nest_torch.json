@@ -1,0 +1,1 @@
+{ "type": "minecraft:crafting_shaped", "category": "misc", "key": {"X": "minecraft:bee_nest", "#": ["minecraft:coal", "minecraft:charcoal"]}, "pattern": ["###", "#X#", "###"], "result": {"count": 32, "id": "more_beautiful_torches:bee_nest_torch"}, "show_notification": true }

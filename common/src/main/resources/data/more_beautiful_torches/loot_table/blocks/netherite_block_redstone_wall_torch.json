@@ -1,0 +1,1 @@
+{ "type": "minecraft:block", "pools": [ { "bonus_rolls": 0.0, "conditions": [ { "condition": "minecraft:survives_explosion" } ], "entries": [ { "type": "minecraft:item", "name": "more_beautiful_torches:netherite_block_redstone_torch" } ], "rolls": 1.0 } ], "random_sequence": "more_beautiful_torches:blocks/netherite_block_redstone_wall_torch" }

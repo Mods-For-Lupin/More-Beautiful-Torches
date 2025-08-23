@@ -1,1 +1,1 @@
-{ "parent": "minecraft:block/template_torch", "render_type": "minecraft:cutout", "textures": { "torch": "more_beautiful_torches:block/brown_mushroom_redstone_torch_off" } }
+{ "parent": "minecraft:block/template_torch_unlit", "render_type": "minecraft:cutout", "textures": { "torch": "more_beautiful_torches:block/brown_mushroom_redstone_torch_off" } }

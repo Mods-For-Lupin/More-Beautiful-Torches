@@ -1,0 +1,1 @@
+{ "type": "minecraft:crafting_shaped", "category": "misc", "key": {"X": "minecraft:mossy_cobblestone", "#": ["minecraft:coal", "minecraft:charcoal"]}, "pattern": ["###", "#X#", "###"], "result": {"count": 32, "id": "more_beautiful_torches:mossy_cobblestone_torch"}, "show_notification": true }

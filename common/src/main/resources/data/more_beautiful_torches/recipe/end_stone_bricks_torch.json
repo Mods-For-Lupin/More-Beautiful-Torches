@@ -1,0 +1,1 @@
+{ "type": "minecraft:crafting_shaped", "category": "misc", "key": {"X": "minecraft:end_stone_bricks", "#": ["minecraft:coal", "minecraft:charcoal"]}, "pattern": ["###", "#X#", "###"], "result": {"count": 32, "id": "more_beautiful_torches:end_stone_bricks_torch"}, "show_notification": true }
