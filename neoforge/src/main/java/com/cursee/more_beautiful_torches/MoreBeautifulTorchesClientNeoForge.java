@@ -9,7 +9,7 @@ public class MoreBeautifulTorchesClientNeoForge {
     public MoreBeautifulTorchesClientNeoForge() {
         MoreBeautifulTorchesClient.init();
 
-        MoreBeautifulTorchesNeoForge.EVENT_BUS.addListener((Consumer<FMLClientSetupEvent>) event -> {
+        MoreBeautifulTorchesNeoForge.modEventBus.addListener((Consumer<FMLClientSetupEvent>) event -> {
             event.enqueueWork(() -> {});
         });
     }

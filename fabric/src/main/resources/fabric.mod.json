@@ -16,7 +16,7 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.cursee.more_beautiful_torches.MoreBeautifulTorchesModFabric"
+            "com.cursee.more_beautiful_torches.MoreBeautifulTorchesFabric"
         ],
         "client": [
             "com.cursee.more_beautiful_torches.MoreBeautifulTorchesClientFabric"
