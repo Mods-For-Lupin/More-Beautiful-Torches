@@ -454,6 +454,12 @@
     "block.more_beautiful_torches.pale_oak_planks_redstone_torch": "Pale Oak Planks Redstone Torch",
     "block.more_beautiful_torches.pale_oak_planks_soul_torch": "Pale Oak Planks Soul Torch",
     "block.more_beautiful_torches.pale_oak_planks_torch": "Pale Oak Planks Torch",
+    "item.more_beautiful_torches.pale_oak_log_redstone_torch": "Pale Oak Log Redstone Torch",
+    "item.more_beautiful_torches.pale_oak_log_soul_torch": "Pale Oak Log Soul Torch",
+    "item.more_beautiful_torches.pale_oak_log_torch": "Pale Oak Log Torch",
+    "item.more_beautiful_torches.pale_oak_planks_redstone_torch": "Pale Oak Planks Redstone Torch",
+    "item.more_beautiful_torches.pale_oak_planks_soul_torch": "Pale Oak Planks Soul Torch",
+    "item.more_beautiful_torches.pale_oak_planks_torch": "Pale Oak Planks Torch",
 
     "block.more_beautiful_torches.obsidian_redstone_torch": "Obsidian Redstone Torch",
     "block.more_beautiful_torches.obsidian_soul_torch": "Obsidian Soul Torch",
@@ -665,6 +671,9 @@
     "block.more_beautiful_torches.stripped_pale_oak_log_redstone_torch": "Stripped Pale Oak Log Redstone Torch",
     "block.more_beautiful_torches.stripped_pale_oak_log_soul_torch": "Stripped Pale Oak Log Soul Torch",
     "block.more_beautiful_torches.stripped_pale_oak_log_torch": "Stripped Pale Oak Log Torch",
+    "item.more_beautiful_torches.stripped_pale_oak_log_redstone_torch": "Stripped Pale Oak Log Redstone Torch",
+    "item.more_beautiful_torches.stripped_pale_oak_log_soul_torch": "Stripped Pale Oak Log Soul Torch",
+    "item.more_beautiful_torches.stripped_pale_oak_log_torch": "Stripped Pale Oak Log Torch",
 
     "block.more_beautiful_torches.stripped_spruce_log_redstone_torch": "Stripped Spruce Log Redstone Torch",
     "block.more_beautiful_torches.stripped_spruce_log_soul_torch": "Stripped Spruce Log Soul Torch",
